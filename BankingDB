@@ -1,0 +1,10 @@
+-- Create database
+CREATE DATABASE BankingDB;
+USE BankingDB;
+
+-- Create accounts table
+CREATE TABLE accounts (
+    acc_num INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    balance DOUBLE NOT NULL
+);
